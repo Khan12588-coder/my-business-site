@@ -1,0 +1,22 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Buji AI & SEO Agency",
+  description:
+    "AI powered SEO, performance marketing and automation for businesses in Pakistan, UAE and the US.",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className="bg-slate-950 text-slate-50 antialiased">
+        {children}
+      </body>
+    </html>
+  );
+}
