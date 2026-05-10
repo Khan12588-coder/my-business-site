@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 
-const WHATSAPP_NUMBER = "923334576657"; // yahan apna number daalo (bina +, bina 0)
+const WHATSAPP_NUMBER = "923334576657";
 const WHATSAPP_DEFAULT_TEXT =
   "Hi, I want an AI & SEO strategy call for my business.";
 
